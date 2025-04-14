@@ -1,6 +1,10 @@
-let cash = 50
-let price = 40
-let isStoreOpen = false
+// function convertCelsiusToFahrenheit(celsius) {
+//   return celsius * 1.8 + 32
 
-let str = cash >= price && isStoreOpen ? "give receipt" : "do not give receipt"
-console.log(str);
+// }
+
+const convertCelsiusToFahrenheit = (celsius) => {
+  return celsius * 1.8 + 32  
+}
+
+console.log(convertCelsiusToFahrenheit(0))
