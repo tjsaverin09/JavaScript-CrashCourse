@@ -1,10 +1,19 @@
-// function convertCelsiusToFahrenheit(celsius) {
-//   return celsius * 1.8 + 32
+// let arr = [1, 4, 9, 16]
 
-// }
+// let newArray = arr.map(element => 'dog')
 
-const convertCelsiusToFahrenheit = (celsius) => {
-  return celsius * 1.8 + 32  
+// console.log(newArray)
+
+let dollars = [1, 5, 10, 3]
+
+// let cents = dollars.map(element => element * 100)
+
+// console.log(cents)
+
+let cents = [];
+
+for (let i = 0; i < dollars.length; ++i) {
+    cents.push(dollars[i]* 100);
 }
 
-console.log(convertCelsiusToFahrenheit(0))
+console.log(cents);
