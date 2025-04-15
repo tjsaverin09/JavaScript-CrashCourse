@@ -1,19 +1,20 @@
-// let arr = [1, 4, 9, 16]
+let users = [
+   { 
+    username: "Terence",
+    email:"Tjsaverin98@live.com",
+    password: 'test123',
+    subscriptionStatus: "VIP",
+    discordId: "Terence Saverin#0009",
+    lessonCompleted: [0, 1],
+   },
+   { 
+    username: "Mitri",
+    email:"Tjsaverin98@live.com",
+    password: 'mitri123',
+    subscriptionStatus: "VIP",
+    discordId: "Mitri#0009",
+    lessonsCompleted: [0, 1, 2, 3],
+   },
+];
 
-// let newArray = arr.map(element => 'dog')
-
-// console.log(newArray)
-
-let dollars = [1, 5, 10, 3]
-
-// let cents = dollars.map(element => element * 100)
-
-// console.log(cents)
-
-let cents = [];
-
-for (let i = 0; i < dollars.length; ++i) {
-    cents.push(dollars[i]* 100);
-}
-
-console.log(cents);
+console.log(users[0].lessonsCompleted.map(elem => elem * 2))
